@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@200&family=Quicksand:wght@300&family=Raleway:wght@300&family=Ysabeau:wght@200&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.bigtext{
+    font-size: 100px;
+    padding: 40px;
+}
+span{
+    padding:40px;
+}
